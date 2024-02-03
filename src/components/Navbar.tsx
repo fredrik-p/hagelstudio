@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +17,9 @@ export default function Navbar() {
       </div>
       <div className={`${isOpen ? 'block' : 'hidden'} w-full lg:flex lg:items-center lg:w-auto`}>
         <div className="text-sm lg:flex-grow">
-          <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 hover:text-stone-50 mr-4">
+          <Link href="/om" className="block mt-4 lg:inline-block lg:mt-0 hover:text-stone-50 mr-4">
             Om
-          </a>
+          </Link>
         </div>
         <div className="text-sm lg:ml-auto">
             <a href="#" className="block mt-4 lg:inline-block lg:mt-0 hover:text-stone-50 mr-4">
@@ -36,9 +37,9 @@ export default function Navbar() {
             </a>
         </div>
         <div className="text-sm lg:ml-auto">
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 hover:text-stone-50 mr-4">
+            <Link href="/kontakt" className="block mt-4 lg:inline-block lg:mt-0 hover:text-stone-50 mr-4">
                 Kontakt
-            </a>
+            </Link>
         </div>
       </div>
     </nav>
