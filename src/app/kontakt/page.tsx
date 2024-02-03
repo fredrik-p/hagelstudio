@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 const Contact = () => {
   return (
     <>
-      <Navbar page="content"/>
+      <Navbar page="content" />
       <main className="flex flex-col items-center justify-center h-[80vh]">
         <div className="p-6">
           <h2 className="text-3xl">h</h2>
@@ -15,8 +15,8 @@ const Contact = () => {
           >
             info@hagelstudio.com
           </a>
-          <a 
-            href="tel:+46733385818" 
+          <a
+            href="tel:+46733385818"
             className="block hover:text-stone-300 mb-1"
           >
             +46(0)733-38 58 18
@@ -31,6 +31,6 @@ const Contact = () => {
       </main>
     </>
   );
-}
+};
 
 export default Contact;

@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
-import BackgroundImage from '@/images/backgroundImage';
+import Navbar from "../components/Navbar";
+import BackgroundImage from "@/images/backgroundImage";
 
 export default function Home() {
   return (
