@@ -3,8 +3,11 @@ import Navbar from "../../components/Navbar";
 const Contact = () => {
   return (
     <>
-      <Navbar />
+      <Navbar page="content"/>
       <main className="flex flex-col items-center justify-center h-[80vh]">
+        <div className="p-6">
+            <h2 className="text-3xl">h</h2>
+            </div>
         <div className="">
              <a
             href="mailto:info@hagelstudio.com"
