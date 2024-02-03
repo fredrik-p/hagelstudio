@@ -19,10 +19,10 @@ const About = () => {
           </div>
           <div className="col-span-2 md:col-span-1">
             <p className="mb-3 font-extralight">
-              Någonstans i gränslandet mellan formgivning, möbelsnickeri och skulptural gestaltning går det hitta hagel studios kärna. Störst fokus ligger dock på arbetet i snickeriet som med stolthet bär den svenska hantverkstraditionen vidare. Möblerna som skapas, med sin grund i det skandinaviska formspråket, är tänkta att hålla i generationer.
+              Någonstans i gränslandet mellan formgivning, möbelsnickeri och skulptural gestaltning går det att hitta hagel studios kärna. Störst fokus ligger på arbetet i snickeriet som med stolthet bär den svenska hantverkstraditionen vidare. Möblerna som skapas, med sin grund i det skandinaviska formspråket, är tänkta att hålla i generationer.
             </p>
             <p className="mb-3 font-extralight">
-              Jag som står bakom företaget heter Henrik Johansson och har gesällbrev som möbelsnickare från Capellagården. Förutom att verka som möbelsnickare håller jag återkommande i kurser på Capellagården, en plats som ligger mig varmt om hjärtat. Att få dela passionen inför skapandet och då i synnerhet trä är en ynnest.
+              Jag som står bakom företaget heter Henrik Johansson och har gesällbrev som möbelsnickare från Capellagården. Förutom att verka som möbelsnickare håller jag återkommande kurser på Capellagården, en plats som ligger mig varmt om hjärtat. Att få dela passionen inför skapandet och då i synnerhet trä är en ynnest.
             </p>
             <p className="mb-3 font-extralight">
             Välkomna att höra av er om ni har frågor, är intresserade av ett samarbete eller bara vill säga hej!

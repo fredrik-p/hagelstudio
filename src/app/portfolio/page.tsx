@@ -26,6 +26,17 @@ const Portfolio = () => {
                             marginTop: 20,
                         }}
                     />
+                              <Image
+                        src="/hammer.jpg"
+                        alt="Hammare och spik"
+                        width={400}
+                        height={400}
+                        quality={80}
+                        priority
+                        style={{
+                            marginTop: 20,
+                        }}
+                    />
                 </div>
             </main>
         </>
