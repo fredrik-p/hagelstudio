@@ -44,28 +44,6 @@ const Portfolio = () => {
             }}
           />
           <Image
-            src="/4.jpg"
-            alt="Detljbild på pall"
-            width={400}
-            height={400}
-            quality={80}
-            priority
-            style={{
-              marginTop: 25,
-            }}
-          />
-          <Image
-            src="/5.jpg"
-            alt="Bild på detalj"
-            width={400}
-            height={400}
-            quality={80}
-            priority
-            style={{
-              marginTop: 25,
-            }}
-          />
-          <Image
             src="/2.jpg"
             alt="Bild på bänk"
             width={400}
