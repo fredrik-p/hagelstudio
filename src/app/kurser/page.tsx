@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Hagel Studio | Kurser',
+  title: 'hagel studio | kurser',
 };
 
 

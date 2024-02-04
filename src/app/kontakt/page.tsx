@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Hagel Studio | Kontakt',
+  title: 'hagel studio | kontakt',
 };
 
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Hagel Studio | Om',
+  title: 'hagel studio | om',
 };
 
 
