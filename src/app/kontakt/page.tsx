@@ -1,10 +1,16 @@
 import Navbar from "../../components/Navbar";
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Hagel Studio | Kontakt',
+};
+
 
 const Contact = () => {
   return (
     <>
       <Navbar page="content" />
-      <main className="flex flex-col items-center justify-center h-[80vh]">
+      <main className="flex flex-col items-center justify-center h-[70vh]">
         <div className="p-6">
           <h2 className="text-3xl">h</h2>
         </div>

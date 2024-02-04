@@ -58,7 +58,7 @@ export default function Navbar({ page }: { page: string }) {
         </div>
         <div className="text-sm lg:ml-auto">
           <a
-            href="#"
+            href="/kurser"
             className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-stone-300"
           >
             Kurser

@@ -1,5 +1,10 @@
 import Navbar from "../../components/Navbar";
 import Image from "next/image";
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Hagel Studio | Portfolio',
+};
 
 const Portfolio = () => {
   return (

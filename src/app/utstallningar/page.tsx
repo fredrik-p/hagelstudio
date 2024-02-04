@@ -1,10 +1,16 @@
 import Navbar from "../../components/Navbar";
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Hagel Studio | Utställningar'
+};
+
 
 const Exhibitions = () => {
   return (
     <>
       <Navbar page="content" />
-      <main className="flex flex-col items-center justify-center md:h-[80vh] max-w-md mx-auto">
+      <main className="flex flex-col items-center justify-center md:h-[70vh] max-w-md mx-auto">
         <div className="p-6">
           <h2 className="text-lg mb-3">Utställningar</h2>
           <p className="mb-3 font-extralight">
