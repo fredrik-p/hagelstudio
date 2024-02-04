@@ -1,10 +1,9 @@
 import Navbar from "../../components/Navbar";
-import { Metadata } from 'next';
- 
-export const metadata: Metadata = {
-  title: 'hagel studio | kontakt',
-};
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "hagel studio | kontakt",
+};
 
 const Contact = () => {
   return (

@@ -1,10 +1,9 @@
 import Navbar from "../../components/Navbar";
-import { Metadata } from 'next';
- 
-export const metadata: Metadata = {
-  title: 'hagel studio | utställningar'
-};
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "hagel studio | utställningar",
+};
 
 const Exhibitions = () => {
   return (
