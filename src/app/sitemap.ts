@@ -18,13 +18,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: 'https://studiohagel.com/portfolio',
         lastModified: new Date(),
         changeFrequency: 'monthly',
-        priority: 0.5,
+        priority: 0.7,
       },
       {
         url: 'https://studiohagel.com/utstallningar',
         lastModified: new Date(),
         changeFrequency: 'monthly',
-        priority: 0.5,
+        priority: 0.6,
       },
       {
         url: 'https://studiohagel.com/kurser',
@@ -36,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: 'https://studiohagel.com/kontakt',
         lastModified: new Date(),
         changeFrequency: 'yearly',
-        priority: 0.5,
+        priority: 0.4,
       },
   ]
 }
