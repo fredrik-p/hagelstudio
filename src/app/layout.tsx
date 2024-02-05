@@ -5,14 +5,24 @@ import "./globals.css";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  title: 'hagel studio',
+  description: 'Möbelsnickeri och formgivning',
+  metadataBase: new URL('https://hagelstudio-nqf91z4d6-fredrik-ps-projects.vercel.app/opengraph-image.png?19b18e3828374e52'),
   openGraph: {
     title: 'hagel studio',
     description: 'Möbelsnickeri och formgivning',
     url: 'https://hagelstudio.com',
-    siteName: 'hagel studio',
+    images:
+    [
+      {
+        url: 'https//hagelstudio.com/opengraph-image.png',
+      }, 
+    ],
     locale: 'sv_SE',
     type: 'website',
-  },
+  },  
+  keywords: ['Möbelsnickeri', 'Henrik Johansson', 'Formgivning', 'Hagel Studio', 'Henrik Johansson', 'Henrik', 'Johansson', 'Snickeri', 'Möbler', 'Möbelsnickare'],
+  publisher: 'Henrik Johansson',
 };
 
 export default function RootLayout({
