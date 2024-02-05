@@ -5,8 +5,14 @@ import "./globals.css";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "hagel studio",
-  description: "Henrik Johansson",
+  openGraph: {
+    title: 'hagel studio',
+    description: 'Möbelsnickeri och formgivning',
+    url: 'https://hagelstudio.com',
+    siteName: 'hagel studio',
+    locale: 'sv_SE',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -15,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="sv">
       <body className={outfit.className}>{children}</body>
     </html>
   );
