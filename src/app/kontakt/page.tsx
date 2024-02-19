@@ -27,7 +27,7 @@ const Contact = () => {
             +46(0)733-38 58 18
           </a>
           <a
-            href="https://www.instagram.com/henrik_snickrar/"
+            href="https://www.instagram.com/hagelstudio/"
             className="block hover:text-stone-300"
           >
             @hagelstudio
