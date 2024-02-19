@@ -27,13 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       },
       {
-        url: 'https://studiohagel.com/kurser',
+        url: 'https://hagelstudio.com/kurser',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.5,
       },
       {
-        url: 'https://studiohagel.com/kontakt',
+        url: 'https://hagelstudio.com/kontakt',
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 0.4,
