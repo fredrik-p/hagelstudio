@@ -14,25 +14,18 @@ const Courses = () => {
         <div className="p-6">
           <h2 className="text-lg mb-3">Kurser</h2>
           <Link
-            href="https://www.capellagarden.se/stolsflatning-med-papperssnore-26-28-april-2024/"
+            href="https://www.capellagarden.se/forma-i-tra-2/"
             className="mb-3 font-extralight hover:text-stone-300 block"
             target="_blank"
           >
-            Stolsflätning med papperssnöre, 26-28 april, Capellagården
+            Forma i trä, 29 juni-12 juli, Capellagården
           </Link>
           <Link
-            href="https://www.capellagarden.se/forma-i-tra/"
+            href="https://www.capellagarden.se/krympburk-for-sma-och-stora-hander-2/"
             className="mb-3 font-extralight hover:text-stone-300 block"
             target="_blank"
           >
-            Forma i trä, 30 juni-13 juli, Capellagården
-          </Link>
-          <Link
-            href="https://www.capellagarden.se/krympburk-for-sma-och-stora-hander/"
-            className="mb-3 font-extralight hover:text-stone-300 block"
-            target="_blank"
-          >
-            Krympburk för stora och små händer, 30-31 juli, Capellagården
+            Krympburk för små och stora händer, 15-16 juli, Capellagården
           </Link>
         </div>
       </main>
