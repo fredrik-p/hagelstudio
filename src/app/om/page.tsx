@@ -14,7 +14,7 @@ const About = () => {
         <div className="p-6 grid grid-cols-2 gap-4 md:gap-8 mb-8">
           <div className="col-span-2 md:col-span-1">
             <Image
-              src="/henke.jpg"
+              src="/henrik.jpeg"
               alt="Henrik Johansson"
               width={500}
               height={500}
